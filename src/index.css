@@ -1,0 +1,184 @@
+.navbar {
+  display: flex;
+  gap: 2rem;
+}
+.sub-nav {
+  display: flex;
+}
+.hr {
+  width: 25rem;
+  height: 0.1rem;
+  background-color: rgb(184, 180, 192);
+}
+.sub-pages {
+  background-color: #383b4b;
+  padding: 2rem;
+  display: flex;
+  gap: 2.5rem;
+  width: 36rem;
+}
+.page {
+  display: flex;
+  gap: 0.4rem;
+  text-decoration: none;
+}
+.page span {
+  color: #ffff;
+}
+
+.page:focus {
+  text-decoration: underline #fff 2px;
+  font-weight: bold;
+  color: #161616;
+}
+.li {
+  color: rgb(184, 180, 192);
+}
+.hr-con {
+  padding-top: 3rem;
+}
+.home-page {
+  background-image: url("./assets/Bitmap.png");
+  background-attachment: fixed;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+
+.home-content {
+  padding-left: 7rem;
+  padding-top: 10rem;
+}
+.home-content h3 {
+  color: rgb(184, 180, 192);
+  letter-spacing: 0.2rem;
+}
+.home-content h1 {
+  color: #ffff;
+  font-size: 6.5rem;
+}
+
+.home-content h4 {
+  color: rgb(184, 180, 192);
+  font-size: 1rem;
+  width: 20rem;
+}
+.home-con {
+  display: flex;
+}
+.logo {
+  height: 5rem;
+  width: 5rem;
+}
+
+.explore-con {
+  background-color: #ffff;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+}
+
+.explore-con h1 {
+  padding-top: 4rem;
+}
+.explore {
+  padding-top: 20rem;
+  padding-left: 15rem;
+}
+
+.destination-page {
+  background-image: url("./assets/background-destination-desktop.jpg");
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.destination-con {
+  display: flex;
+  gap: 1rem;
+  color: #d2d2d2;
+  padding-left: 7rem;
+  padding-top: 5rem;
+}
+.destination-con span {
+  color: rgb(184, 180, 192);
+  font-size: 2rem;
+  padding-top: 1.6rem;
+}
+.destination-nav {
+  padding: 2rem;
+  display: flex;
+  gap: 2.5rem;
+}
+.destination-page-links {
+  padding-left: 36rem;
+}
+
+.destination-sub-page {
+  display: flex;
+  gap: 10rem;
+}
+.location {
+  font-size: 5rem;
+  color: #fff;
+}
+.location-description {
+  color: rgb(184, 180, 192);
+  width: 23rem;
+  padding-bottom: 3rem;
+}
+.location-speed {
+  display: flex;
+  padding-top: 2rem;
+  gap: 8rem;
+  color: rgb(184, 180, 192);
+}
+
+.location-time h1,
+.location-distance h1 {
+  font-size: 2.5rem;
+}
+
+.crew-page {
+  background-image: url("./assets/background-crew-desktop.jpg");
+  background-attachment: fixed;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+
+.crew-con {
+  display: flex;
+  gap: 1rem;
+  color: #d2d2d2;
+  padding-left: 7rem;
+  padding-top: 5rem;
+}
+.crew-con span {
+  color: rgb(184, 180, 192);
+  font-size: 2rem;
+  padding-top: 0.9rem;
+}
+
+.slick-slide {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.text-container {
+
+  padding-right: 20px; 
+}
+
+
+.image-container {
+  flex-shrink: 0;
+}
