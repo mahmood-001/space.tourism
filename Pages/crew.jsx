@@ -1,5 +1,5 @@
 import Slider from "react-slick";
-import Navbar from "../component/Navbar.Jsx";
+import Navbar from "../component/Navbar.jsx";
 import flightEngrImg from "../src/assets/image-anousheh-ansari.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
